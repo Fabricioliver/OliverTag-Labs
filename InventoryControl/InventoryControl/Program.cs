@@ -2,6 +2,7 @@
 // backend/InventoryControl.Api/Program.cs
 using Microsoft.EntityFrameworkCore;
 
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDb>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
