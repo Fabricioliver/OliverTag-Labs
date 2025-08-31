@@ -1,12 +1,173 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projetos\\IA\\InventoryControl\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE928DE8-1733-406E-830E-1F949549EC76}|InventoryControl\\InventoryControl.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE928DE8-1733-406E-830E-1F949549EC76}|InventoryControl\\InventoryControl.csproj|solutionrelative:inventorycontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE928DE8-1733-406E-830E-1F949549EC76}|InventoryControl\\InventoryControl.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE928DE8-1733-406E-830E-1F949549EC76}|InventoryControl\\InventoryControl.csproj|solutionrelative:inventorycontrol\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE928DE8-1733-406E-830E-1F949549EC76}|InventoryControl\\InventoryControl.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol\\inventorycontrol.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE928DE8-1733-406E-830E-1F949549EC76}|InventoryControl\\InventoryControl.csproj|solutionrelative:inventorycontrol\\inventorycontrol.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF6AE72-F631-4960-8B42-3BF8779192EC}|InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol.infrastructure\\inventorycontrol.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ADF6AE72-F631-4960-8B42-3BF8779192EC}|InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj|solutionrelative:inventorycontrol.infrastructure\\inventorycontrol.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B3A420-44F3-4C60-B901-CE8D8882CE22}|InventoryControl.Domain\\InventoryControl.Domain.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol.domain\\inventorycontrol.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0B3A420-44F3-4C60-B901-CE8D8882CE22}|InventoryControl.Domain\\InventoryControl.Domain.csproj|solutionrelative:inventorycontrol.domain\\inventorycontrol.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B3A420-44F3-4C60-B901-CE8D8882CE22}|InventoryControl.Domain\\InventoryControl.Domain.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol.domain\\estoqueminimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B3A420-44F3-4C60-B901-CE8D8882CE22}|InventoryControl.Domain\\InventoryControl.Domain.csproj|solutionrelative:inventorycontrol.domain\\estoqueminimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B3A420-44F3-4C60-B901-CE8D8882CE22}|InventoryControl.Domain\\InventoryControl.Domain.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol.domain\\movimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B3A420-44F3-4C60-B901-CE8D8882CE22}|InventoryControl.Domain\\InventoryControl.Domain.csproj|solutionrelative:inventorycontrol.domain\\movimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B3A420-44F3-4C60-B901-CE8D8882CE22}|InventoryControl.Domain\\InventoryControl.Domain.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B3A420-44F3-4C60-B901-CE8D8882CE22}|InventoryControl.Domain\\InventoryControl.Domain.csproj|solutionrelative:inventorycontrol.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF6AE72-F631-4960-8B42-3BF8779192EC}|InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj|d:\\projetos\\ia\\inventorycontrol\\inventorycontrol.infrastructure\\appdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF6AE72-F631-4960-8B42-3BF8779192EC}|InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj|solutionrelative:inventorycontrol.infrastructure\\appdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryControl\\appsettings.json",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl\\appsettings.json",
+              "RelativeToolTip": "InventoryControl\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-31T01:34:17.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryControl\\Program.cs",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl\\Program.cs",
+              "RelativeToolTip": "InventoryControl\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T01:32:59.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryControl.Domain",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Domain\\InventoryControl.Domain.csproj",
+              "RelativeDocumentMoniker": "InventoryControl.Domain\\InventoryControl.Domain.csproj",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Domain\\InventoryControl.Domain.csproj",
+              "RelativeToolTip": "InventoryControl.Domain\\InventoryControl.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-31T01:32:31.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryControl",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl\\InventoryControl.csproj",
+              "RelativeDocumentMoniker": "InventoryControl\\InventoryControl.csproj",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl\\InventoryControl.csproj",
+              "RelativeToolTip": "InventoryControl\\InventoryControl.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-31T01:32:11.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EstoqueMinimo.cs",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Domain\\EstoqueMinimo.cs",
+              "RelativeDocumentMoniker": "InventoryControl.Domain\\EstoqueMinimo.cs",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Domain\\EstoqueMinimo.cs",
+              "RelativeToolTip": "InventoryControl.Domain\\EstoqueMinimo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T01:17:25.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryControl.Infrastructure",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj",
+              "RelativeToolTip": "InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-31T01:06:38.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDb.cs",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Infrastructure\\AppDb.cs",
+              "RelativeDocumentMoniker": "InventoryControl.Infrastructure\\AppDb.cs",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Infrastructure\\AppDb.cs",
+              "RelativeToolTip": "InventoryControl.Infrastructure\\AppDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T01:01:08.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Movimento.cs",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Domain\\Movimento.cs",
+              "RelativeDocumentMoniker": "InventoryControl.Domain\\Movimento.cs",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Domain\\Movimento.cs",
+              "RelativeToolTip": "InventoryControl.Domain\\Movimento.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T00:59:32.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Domain\\Produto.cs",
+              "RelativeDocumentMoniker": "InventoryControl.Domain\\Produto.cs",
+              "ToolTip": "D:\\Projetos\\IA\\InventoryControl\\InventoryControl.Domain\\Produto.cs",
+              "RelativeToolTip": "InventoryControl.Domain\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T00:59:01.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

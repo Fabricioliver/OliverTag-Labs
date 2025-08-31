@@ -1,18 +1,21 @@
-
-// backend/InventoryControl.Api/Program.cs
+﻿using InventoryControl.Infrastructure;
+using InventoryControl.Domain;
 using Microsoft.EntityFrameworkCore;
 
-
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddDbContext<AppDb>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
+// Endpoints básicos
 app.MapGet("/produtos", async (AppDb db) => await db.Produtos.ToListAsync());
 
 app.MapPost("/produtos", async (Produto p, AppDb db) =>
@@ -30,15 +33,12 @@ app.MapPost("/movimentos", async (Movimento m, AppDb db) =>
 });
 
 app.MapGet("/alertas", async (AppDb db) =>
-{
-    var alertas = from p in db.Produtos
-                  join min in db.EstoqueMinimo on p.Id equals min.ProdutoId
-                  let saldo = db.Movimentos
-                                .Where(x => x.ProdutoId == p.Id)
-                                .Sum(x => x.Tipo == "ENTRADA" ? x.Qtd : -x.Qtd)
-                  where saldo < min.Minimo
-                  select new { p.Nome, Saldo = saldo, min.Minimo };
-    return await alertas.ToListAsync();
-});
+    await (from p in db.Produtos
+           join min in db.EstoqueMinimo on p.Id equals min.ProdutoId
+           let saldo = db.Movimentos.Where(x => x.ProdutoId == p.Id)
+               .Sum(x => x.Tipo == "ENTRADA" ? x.Qtd : -x.Qtd)
+           where saldo < min.Minimo
+           select new { p.Id, p.Nome, Saldo = saldo, min.Minimo }).ToListAsync()
+);
 
 app.Run();
