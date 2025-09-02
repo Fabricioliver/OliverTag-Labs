@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\InventoryControl.Domain\InventoryControl.Domain.csproj" />
     <ProjectReference Include="..\InventoryControl.Infrastructure\InventoryControl.Infrastructure.csproj" />
+    <ProjectReference Include="..\InventoryControl.Application\InventoryControl.Application.csproj" />
   </ItemGroup>
 
 </Project>

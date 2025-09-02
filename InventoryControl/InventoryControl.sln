@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryControl.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryControl.Infrastructure", "InventoryControl.Infrastructure\InventoryControl.Infrastructure.csproj", "{ADF6AE72-F631-4960-8B42-3BF8779192EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryControl.Application", "InventoryControl.Application\InventoryControl.Application.csproj", "{7150BCC3-1E81-4D66-B86F-64FB3DE65338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{ADF6AE72-F631-4960-8B42-3BF8779192EC}.Release|x64.Build.0 = Release|Any CPU
 		{ADF6AE72-F631-4960-8B42-3BF8779192EC}.Release|x86.ActiveCfg = Release|Any CPU
 		{ADF6AE72-F631-4960-8B42-3BF8779192EC}.Release|x86.Build.0 = Release|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Debug|x64.Build.0 = Debug|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Debug|x86.Build.0 = Debug|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Release|x64.ActiveCfg = Release|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Release|x64.Build.0 = Release|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Release|x86.ActiveCfg = Release|Any CPU
+		{7150BCC3-1E81-4D66-B86F-64FB3DE65338}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
