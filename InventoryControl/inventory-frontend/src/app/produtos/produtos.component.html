@@ -1,0 +1,17 @@
+<h2>Produtos</h2>
+
+<form (ngSubmit)="criar()" style="margin-bottom:1rem">
+  <input placeholder="Nome" [(ngModel)]="novo.nome" name="nome" required />
+  <input placeholder="Preço" type="number" step="0.01" [(ngModel)]="novo.preco" name="preco" required />
+  <button type="submit">Adicionar</button>
+</form>
+
+<div *ngIf="loading">Carregando...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<ul>
+  <li *ngFor="let p of produtos">
+    {{ p.nome }} — R$ {{ p.preco }}
+    <button (click)="excluir(p.id)">Excluir</button>
+  </li>
+</ul>
