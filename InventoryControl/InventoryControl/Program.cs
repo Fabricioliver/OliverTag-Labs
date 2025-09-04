@@ -2,6 +2,10 @@
 using InventoryControl.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
+using FluentValidation;
+using InventoryControl.Application.DTOs;
+using InventoryControl.Application.Validators;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // ---------- Services (DI) ----------
@@ -14,6 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<IValidator<ProdutoDto>, ProdutoDtoValidator>();
 
 builder.Services.AddCors(opt =>
 {
